@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let logFilePath = 'ngx-logger-backend.log';
+let logFilePath = 'aoc-client-logger.log';
 const argLogPath = process.argv.slice(2)[0];
 if (argLogPath) {
     logFilePath = argLogPath;

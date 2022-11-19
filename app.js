@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const logRouter = require('./routes/log');
-const process = require('process');
 const writer = require('./utils/writer');
 
 const app = express();
