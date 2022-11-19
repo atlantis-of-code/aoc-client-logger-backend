@@ -18,7 +18,7 @@ You can change the port using the PORT env variable.
 
 Please note that it is on your side to provide the security level you might require in terms of the exposition of these endpoints.
 For example, you can have your proxy to accept only connections from a specified IPs, or use any other kind of strategy your might
-think is enough in terms of assuring that only an actual aoc-client applications are using these endpoints.
+think is enough in terms of assuring that only your actual aoc-client applications are using these endpoints.
 
 ## Contributions
 
